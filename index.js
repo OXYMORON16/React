@@ -1,4 +1,14 @@
-var React = require("react");
-var reactDOM = require("react-dom");
+import React from "react";
+import ReactDOM from "react-dom";
 
-reactDOM.render(<div><h1>Hemloi</h1></div>, document.getElementById("root"));
+ReactDOM.render(
+  <div>
+    <h1>My Favourite Foods</h1>
+    <ul>
+      <li>Bacon</li>
+      <li>Noodles</li>
+      <li>Jamon</li>
+    </ul>
+  </div>,
+  document.getElementById("root")
+);
